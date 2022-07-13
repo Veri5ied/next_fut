@@ -1,14 +1,16 @@
 import Head from "next/head";
 
-export default function Home() {
+const About = () => {
   return (
     <div>
       <Head>
-        <title>Next Lang</title>
+        <title>About</title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="Next Lang" />
       </Head>
-      <h1>Welcome to Next Fut</h1>
+      <h1>About Page</h1>
     </div>
   );
-}
+};
+
+export default About;
